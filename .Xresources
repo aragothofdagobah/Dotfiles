@@ -1,0 +1,72 @@
+!WE WANT DA FONT
+!URxvt.font:             -beastie-gohufontmod11-*-*-*-*-11-*-100-*-*-*-iso8859-1
+!URxvt.boldFont:         -beastie-gohufontmod11-*-*-*-*-11-*-100-*-*-*-iso8859-1
+
+! Colors and Shit
+URxvt.foreground:	#9C9A94
+URxvt.background:	#111111
+!black
+URxvt.color0:     #111111
+URxvt.color8:     #404040
+!red
+URxvt.color1:     #DA5F5F
+URxvt.color9:     #E17A6B
+!green
+URxvt.color2:     #95C749
+URxvt.color10:    #B8D68C
+!yellow
+URxvt.color3:     #B5E15D
+URxvt.color11:    #F0BB6E
+!blue
+URxvt.color4:     #778798
+URxvt.color12:    #D2B48C
+!magenta
+URxvt.color5:     #AEA4BF
+URxvt.color13:    #5AF4B5
+!cyan
+URxvt.color6:     #CCCA9A
+URxvt.color14:    #42717B
+!white
+URxvt.color7:     #ECEAE0
+URxvt.color15:    #dddddd
+
+
+
+! I wanna click URLs
+URxvt.perl-ext-common: default,matcher
+URxvt.url-launcher: google-chrome-beta
+URxvt.matcher.button: 1
+URxvt.colorUL: #7ECCB2
+
+! RANDOM SHIT
+URxvt.imLocale: en_US.UTF-8
+URxvt.scrollBar: false
+URxvt.keysym.Shift-Control-V: perl:clipboard:paste
+URxvt.iso14755: False
+
+! messagingshit
+xmessage*form.okay.shapeStyle: rectangle
+xmessage*form.okay.background: IndianRed
+xmessage*form.okay.foreground: rgb:e/b/b
+xmessage*message*background: ivory3
+xmessage*background: gray85
+xmessage*foreground: gray15
+xmessage*Scrollbar.width: 1
+xmessage*Scrollbar.borderWidth: 0
+xmessage*Text.?.cursorColor: rgb:d/5/5
+xmessage*Text.borderColor: gray65
+xmessage*Text*background: gray95
+xmessage*Command.highlightThickness: 1
+xmessage*Command.internalWidth: 5
+xmessage*Command.internalHeight: 3
+xmessage*Command.borderColor: gray40
+xmessage*Command.shapeStyle: Rectangle
+xmessage*Command.background: gray80
+xmessage*font: -*-uushi-*-*-*-*-*-*-*-*-*-*-*-*
+
+!XFT settings
+Xft.dpi: 96
+Xft.antialias: true
+Xft.hinting: full
+Xft.hintstyle: hintslight
+Xft.rgba: rgb
